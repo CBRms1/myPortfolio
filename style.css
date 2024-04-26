@@ -1,0 +1,128 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+header {
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    background-color: rgb(0, 71, 71);
+    padding: 2vh;
+    color: black;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.5);
+}
+
+header ion-icon {
+    transform: translateY(0.5vh);
+}
+
+#linkedin {
+    color: blue;
+}
+
+#github {
+    color: black;
+}
+
+body,
+html {
+    background-image: url('img/background.webp');
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+.profile {
+    opacity: 2vh;
+    background: url(img/backgroundProfile.jpg);
+    background-size: 100%;
+    width: 100%;
+    padding: 8vh 0 5vh 0;
+    margin-bottom: 30vh;
+    border-radius: 2vh;
+}
+
+.profile .profileImg {
+    width: 300px;
+    border-radius: 10vh;
+    border-bottom: 1vh solid black;
+    backdrop-filter: blur(2px);
+    transition: border-radius 1s linear;
+}
+
+.profile .profileImg:hover {
+    border-radius: 1vh;
+}
+
+.profile .description {
+    color: black;
+    text-shadow: 0 0 1vh #fff;
+}
+
+.profile .skills {
+    font-size: x-large;
+    color: darkred;
+}
+
+.myDescription {
+    background: url(img/backgroundDesc.jpg);
+    background-size: 100%;
+    padding: 5vh;
+    border-radius: 2vh;
+    margin-bottom: 30vh;
+    color: black;
+    text-shadow: 0 0 0.3vh #fff;
+}
+
+.myDescription p {
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.projects {
+    background: url(img/background3.jpg);
+    background-size: 100%;
+    padding: 5vh;
+    border-radius: 2vh;
+    margin-bottom: 30vh;
+    color: black;
+    text-shadow: 0 0 0.3vh #fff;
+    font-size: larger;
+    font-weight: 1000;
+}
+
+.project1 img, .project2 img, .project3 img {
+    max-width: 30vw;
+    max-height: 30vh;
+}
+
+.project1 p, .project2 p, .project3 p {
+    font-size: larger;
+    font-weight: 1000;
+}
+
+.finalInfos {
+    background: url(img/background4.jpg);
+    background-size: 100%;
+    padding: 5vh;
+    border-radius: 2vh;
+    margin-bottom: 30vh;
+    color: black;
+    text-shadow: 0 0 0.3vh #fff;
+    font-size: larger;
+    font-weight: 1000;
+}
+
+footer {
+    width: 100%;
+    background-color: #222;
+    color: beige;
+}
+
+footer p {
+    padding: 1vh;
+}
