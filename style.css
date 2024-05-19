@@ -3,13 +3,14 @@
     margin: 0;
     box-sizing: border-box;
     font-family: monospace;
+    color: beige;
 }
 
 header {
     position: fixed;
     z-index: 1000;
     width: 100%;
-    background-color: rgb(0, 71, 71);
+    background-color: #333;
     padding: 2vh;
     color: black;
     box-shadow: 0 8px 10px rgba(0, 0, 0, 0.5);
@@ -38,7 +39,7 @@ html {
 
 .profile {
     opacity: 2vh;
-    background: url(img/backgroundProfile.jpg);
+    background-color: #4b4b46;
     background-size: 100%;
     width: 100%;
     padding: 8vh 0 5vh 0;
@@ -49,7 +50,7 @@ html {
 .profile .profileImg {
     width: 300px;
     border-radius: 10vh;
-    border-bottom: 1vh solid black;
+    border-bottom: 1vh solid beige;
     backdrop-filter: blur(2px);
     transition: border-radius 1s linear;
 }
@@ -58,24 +59,17 @@ html {
     border-radius: 1vh;
 }
 
-.profile .description {
-    color: black;
-    text-shadow: 0 0 1vh #fff;
-}
-
 .profile .skills {
     font-size: x-large;
-    color: darkred;
+    color: tomato;
 }
 
 .myDescription {
-    background: url(img/backgroundDesc.jpg);
+    background-color: #4b4b46;
     background-size: 100%;
     padding: 5vh;
     border-radius: 2vh;
     margin-bottom: 30vh;
-    color: black;
-    text-shadow: 0 0 0.3vh #fff;
 }
 
 .myDescription p {
@@ -84,13 +78,11 @@ html {
 }
 
 .projects {
-    background: url(img/background3.jpg);
+    background-color: #4b4b46;
     background-size: 100%;
     padding: 5vh;
     border-radius: 2vh;
     margin-bottom: 30vh;
-    color: black;
-    text-shadow: 0 0 0.3vh #fff;
     font-size: larger;
     font-weight: 1000;
 }
@@ -106,13 +98,11 @@ html {
 }
 
 .finalInfos {
-    background: url(img/background4.jpg);
+    background-color: #4b4b46;
     background-size: 100%;
     padding: 5vh;
     border-radius: 2vh;
     margin-bottom: 30vh;
-    color: black;
-    text-shadow: 0 0 0.3vh #fff;
     font-size: larger;
     font-weight: 1000;
 }
@@ -120,7 +110,6 @@ html {
 footer {
     width: 100%;
     background-color: #222;
-    color: beige;
 }
 
 footer p {
